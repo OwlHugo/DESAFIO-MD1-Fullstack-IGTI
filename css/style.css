@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  padding: 10px;
+  font: 300 1.2rem 'Inter';
+  color: rgb(65, 65, 65);
+}
+
+input {
+  width: 90%;
+  height: 20px;
+
+  margin-top: 5px;
+
+  border: 2px solid;
+}
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.container section:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.country {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.add {
+  border-radius: 50%;
+  background-color: darkgreen;
+  color: white;
+  font-weight: bold;
+}
+
+.border {
+  background-color: white;
+  width: 45%;
+  padding: 5px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  -webkit-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+}
+
+.users {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  /* background-color: red; */
+}
+
+#itens {
+  justify-content: center;
+  margin-top: 40px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#itens img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.inputs {
+  width: 54%;
+  margin-top: 40px;
+  position: relative;
+}
+
+.inputs input {
+  border: none;
+  background-color: rgb(235, 235, 235);
+  border-bottom: 2px solid rgb(41, 40, 40);
+  width: 70%;
+  height: 40px;
+  outline: none;
+  padding: 5px;
+  transition: 0.4s;
+  color: rgb(77, 77, 77);
+}
+.inputs input::placeholder {
+  color: grey;
+}
+
+.inputs input:hover {
+  border-bottom: 2px solid rgb(143, 143, 143);
+}
+.inputs input:focus {
+  border-bottom: 2px solid rgb(63, 63, 63);
+}
+.inputs button {
+  background-color: grey;
+  outline: none;
+  height: 40px;
+  outline: none;
+  padding: 5px;
+  border: none;
+  border-radius: 0 8px 8px 0px;
+  color: white;
+  transition: 0.4s;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+}
+.inputs button:hover {
+  outline: none;
+  outline: none;
+  padding: 5px;
+  background-color: rgb(104, 104, 104);
+  color: white;
+}

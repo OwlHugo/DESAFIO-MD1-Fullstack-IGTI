@@ -1,0 +1,17 @@
+Roteiro - Desafio do Módulo 01 Full Stack
+=========================================
+
+(x) Subir e testar backend
+
+() Montar HTML com integração com Tailwind CSS
+   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+(x) Subir frontend com Live Server
+(x) Montar HTML 
+(x) Incluir JavaScript
+(x) Implementar função de obtenção de dados do backend
+(x) Habilitar controles
+(x) Habilitar eventos
+(x) Implementar os filtros
+(x) Testar fluxo da aplicação
+() Tornar a aplicação responsiva com Tailwind CSS
